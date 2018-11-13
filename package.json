@@ -23,5 +23,11 @@
     "bugs": {
         "url": "https://github.com/guguaihaha/socks/issues"
     },
-    "homepage": "https://github.com/guguaihaha/socks#readme"
+    "homepage": "https://github.com/guguaihaha/socks#readme",
+    "dependencies": {
+        "colors": "^1.3.2",
+        "commander": "^2.19.0",
+        "fs-extra": "^7.0.1",
+        "minimist": "^1.2.0"
+    }
 }
