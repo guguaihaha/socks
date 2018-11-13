@@ -1,33 +1,37 @@
 {
-    "name": "sock",
-    "version": "1.0.0",
-    "description": "This for test",
-    "main": "index.js",
-    "bin": {
-        "sock": "./bin/index.js"
-    },
-    "scripts": {
-        "test": "npm run test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/guguaihaha/socks.git"
-    },
-    "keywords": [
-        "socks",
-        "sock",
-        "build"
-    ],
-    "author": "zhangjinglin",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/guguaihaha/socks/issues"
-    },
-    "homepage": "https://github.com/guguaihaha/socks#readme",
-    "dependencies": {
-        "colors": "^1.3.2",
-        "commander": "^2.19.0",
-        "fs-extra": "^7.0.1",
-        "minimist": "^1.2.0"
-    }
+  "name": "sock.build",
+  "version": "1.0.1",
+  "description": "This for test",
+  "main": "index.js",
+  "bin": {
+    "sock": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guguaihaha/socks.git"
+  },
+  "keywords": [
+    "socks",
+    "sock",
+    "build"
+  ],
+  "author": "zhangjinglin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guguaihaha/socks/issues"
+  },
+  "homepage": "https://github.com/guguaihaha/socks#readme",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "minimist": "^1.2.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }

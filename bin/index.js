@@ -78,6 +78,4 @@ if (cmd) {
     console.log('')
     console.log('sock -h or sock --help')
     console.log('')
-    console.log('sock')
-    console.log('')
 }
