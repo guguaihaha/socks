@@ -12,7 +12,7 @@
 ```
 Usage: sock [command] <options>
 
-command
+command:
 install [name] <-a,--auto>     -  install your project by name(default 'myFirstSockProject') 
                                   if enter word -a or --auto ,project will be help you 
                                   auto run 'npm install' and other orders
