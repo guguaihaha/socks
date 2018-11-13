@@ -21,7 +21,7 @@ var argv = process.argv.slice(2),
  * @paramsDescription  paramName :
  */
 program
-    .version('0.1.0')
+    .version(`${pkg.version}`)
     .usage('<command> [options]')
     .option('-f,--force', 'throw all warning to action any orders')
 
