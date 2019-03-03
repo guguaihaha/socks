@@ -22,6 +22,9 @@ publish <-z,--zip>             -  publish your project to server by ftp, when tr
                                   on terminal to zip the project '.war'
 clean <-a,--all>               -  clean the cache DEV enviroment, if 'clean -a or clean --all'
                                   order will be clean all build project
+
+options:
+                                 
 ```
 
 

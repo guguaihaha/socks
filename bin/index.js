@@ -13,6 +13,7 @@ const orders = require('../lib/core/order')
 
 var argv = process.argv.slice(2),
     cmd = minimist(argv)._[0];
+
 /**
  * @Author: zhangjinglin
  * @Email: zhangjinglin@aliyun.com
@@ -39,8 +40,10 @@ for (let element in orders) {
         .description(_.d)
         .option(_.o[0], _.o[1])
         .action((env, options) => {
-            let _config = require(`../config/${_.c}.config.js`)
-            require(`../lib/cli/${_.c}.cli.js`)(_config);
+            let _config = require(`../config/${_.a}.config.js`)
+            let _cli = require(`../lib/cli/${_.a}.cli.js`)(_config);
+            // console.log(_cli);
+            // _cli.init(_config);
             // console.log(env);
             // console.log(options.options[0].short)
             // console.log(options.options[0].long)
